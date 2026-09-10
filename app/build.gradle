@@ -3,14 +3,15 @@ plugins {
 }
 
 android {
+    namespace 'com.hermes.webview'
     compileSdk 34
 
     defaultConfig {
-        applicationId "com.hermes.webview"
+        applicationId 'com.hermes.webview'
         minSdk 21
         targetSdk 34
         versionCode 1
-        versionName "1.0"
+        versionName '1.0'
     }
 
     buildTypes {
